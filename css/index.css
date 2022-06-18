@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:  #312ac6;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fondo {
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    object-fit: contain;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+}
+
+header {
+    padding: 50px;
+    position: relative;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto h1 {
+    font-size: 2.2em;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.texto p {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.texto button {
+    background: #fff;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 5px 4px 0px 1px #181563;
+    color: #312ac6;
+    font-size: 1.3em;
+    font-weight: 700;
+    height: 50px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    width: 220px;
+}
+
+.icons {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    margin-top: 70px;
+}
+
+.icons a {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    margin: 0 2px;
+    text-decoration: none;
+}
+
+i {
+    font-size: 1.3em;
+    padding: 15px;
+}
+
+@media (max-width: 500px) {
+    header {
+        padding: 30px;
+        position: relative;
+    }
+    
+    header img {
+        transform: scale(.8);
+    }
+
+    .container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .img {
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    .img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .texto {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .texto h1 {
+        font-size: 1.6em;
+        font-weight: 900;
+        margin-bottom: 30px;
+        max-width: 432px;
+        text-align: center;
+    }
+    
+    .texto p {
+        font-size: 1em;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .texto button {
+        background: #fff;
+        border: none;
+        border-radius: 30px;
+        color: #312ac6;
+        font-size: 1.3em;
+        font-weight: 700;
+        height: 50px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        width: 220px;
+    }
+    
+    .icons {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    
+    .icons a {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        margin: 0 2px;
+        text-decoration: none;
+    }
+    
+    i {
+        font-size: 1.2em;
+        padding: 12px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+    header {
+        padding: 30px;
+        position: relative;
+    }
+    
+    header img {
+        transform: scale(.8);
+    }
+
+    .container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .img {
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .texto {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .texto h1 {
+        font-size: 2em;
+        font-weight: 900;
+        margin-bottom: 30px;
+        max-width: 432px;
+        text-align: center;
+    }
+    
+    .texto p {
+        font-size: 1.3em;
+        font-weight: 400;
+        line-height: 9mm;
+        min-width: 480px;
+        text-align: center;
+    }
+    
+    .texto button {
+        background: #fff;
+        border: none;
+        border-radius: 30px;
+        color: #312ac6;
+        font-size: 1.3em;
+        font-weight: 700;
+        height: 50px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        width: 220px;
+    }
+    
+    .icons {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    
+    .icons a {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        margin: 0 2px;
+        text-decoration: none;
+    }
+    
+    i {
+        font-size: 1.2em;
+        padding: 12px;
+    }
+}
